@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-primary"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo kaos.png" alt="" width="70px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <div class="jumbotron">
+      <div class="container content">
+        <h1 class="display-5 fw-bold">
+          <span>Selamat Datang di</span> <br />Pulau Biawak
+        </h1>
+        <p>
+          Destinasi wisata pilihan yang bisa anda nikmati untuk berlibur kekota
+          mangga. Pesona keindahan pantai cantik dengan pasir putih bersih akan
+          memanjakan waktu libur anda di Indramayu.
+        </p>
+        <button class="btn btn-primary btn-md" type="button">Explore</button>
+      </div>
+    </div>
+
+    <!-- About  -->
+    <section class="container tentang text-center" id="tentang">
+      <h1>Tentang <br /><span>Pulau Biawak</span></h1>
+      <div class="baris row">
+        <p class="col-sm-12 col-md-6">
+          Pulau Biawak adalah tempat wisata yang cocok untuk dikunjungi jika
+          sedang berada di Indramayu. Dari Muara Karangsong, pulau ini bisa
+          ditempuh selama 2 hingga 4 jam perjalanan dengan menggunakan perahu.
+          Pulau ini memiliki luas sekitar 120 hektare dan sekitar 80 hektare
+          dari pulau ini adalah area hutan bakau.
+        </p>
+        <img src="img/bahan/gambar 1.webp" alt="" class="col-sm-12 col-md-6" />
+      </div>
+      <a href="#" class="btn btn-primary btn-sm">Baca Selengkapnya</a>
+    </section>
+
+    <!-- Galeri -->
+    <div class="galeri" id="galeri">
+      <section class="container">
+        <h1>Galeri <br /><span>Pulau Biawak</span></h1>
+        <div class="galeri-img">
+          <img src="img/bahan/2.jpg" alt="" />
+          <img src="img/bahan/3.jpg" alt="" />
+          <img src="img/bahan/4.jpg" alt="" />
+        </div>
+        <a href="#" class="btn btn-sm btn-primary mt-3"
+          ><i data-feather="eye" width="13px" class="me-1"></i>Lihat</a
+        >
+      </section>
+    </div>
+
+    <!-- Kontak -->
+    <section class="kontak" id="kontak">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15873.865580712521!2d108.37025582977364!3d-5.9302562618425565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6c182d36bd1993%3A0xe7a7c477fdb3c3d9!2sPulau%20Rakit!5e0!3m2!1sid!2sid!4v1687938726562!5m2!1sid!2sid"
+        width="100%"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="kontak-content">
+        <div class="col-kontak">
+          <p><i data-feather="phone"></i>Telp: +62 812 3456 7890</p>
+        </div>
+        <div class="col-kontak">
+          <p><i data-feather="mail"></i>Email: pulaubiawak@email.com</p>
+        </div>
+        <div class="col-kontak">
+          <p><i data-feather="instagram"></i>Instagram: @pualu_biawak</p>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>&copy; copyrigth by erman maulana 2023</footer>
+    </section>
+    <!-- Javascrip library -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Library AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
