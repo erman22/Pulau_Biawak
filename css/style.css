@@ -5,6 +5,11 @@
 
 /* navbar */
 .navbar {
+  transition: 0.6s;
+}
+
+.sticky {
+  background-color: #0d6efd;
   box-shadow: 0px 1px 5px 0px #212529;
 }
 
@@ -75,7 +80,7 @@
   font-size: 10px;
 }
 
-/* Halaman galeri */
+/* galeri */
 .galeri {
   padding-top: 50px;
   padding-bottom: 70px;
@@ -132,6 +137,21 @@ footer {
   padding: 10px;
 }
 
+/* halaman galeri */
+.content-galeri {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.content-galeri a img {
+  margin: 5px 0px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
 /* Tampulan Desktop */
 @media (min-width: 992px) {
   /* Navbar */
@@ -139,11 +159,6 @@ footer {
     text-transform: uppercase;
     margin-right: 30px;
     color: #fff;
-  }
-
-  .bg-primary {
-    background-color: rgba(0, 181, 253, 0) !important;
-    box-shadow: none;
   }
 
   .nav-link:hover {
@@ -197,7 +212,7 @@ footer {
     font-size: 14px;
   }
 
-  /* Halaman galeri */
+  /* galeri */
   .galeri .galeri-img img {
     width: 30%;
     height: 250px;
@@ -209,6 +224,25 @@ footer {
 
   .galeri .galeri-img img:hover {
     box-shadow: 0px 0px 20px 0px #000;
+  }
+
+  /* Halaman galeri */
+  .content-galeri {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+  }
+
+  .content-galeri a img {
+    margin: 10px 0px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+
+  .content-galeri a img:hover {
+    box-shadow: 0 0 20px 0 #000;
   }
 
   /* kontak */
